@@ -1,4 +1,4 @@
-package myCompany.myTeam.utilities;
+package companyFolder.teamFolder.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

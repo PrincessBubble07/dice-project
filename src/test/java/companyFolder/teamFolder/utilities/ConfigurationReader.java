@@ -1,11 +1,12 @@
-package myCompany.myTeam.utilities;
+package companyFolder.teamFolder.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigurationReader{
-//private = not accessible outside the class //static so it is loaded first
+
+//private = not accessible outside the class //static is loaded first
     private static Properties properties = new Properties();
 
     static{
