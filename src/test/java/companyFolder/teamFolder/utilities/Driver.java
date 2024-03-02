@@ -18,6 +18,7 @@ public class Driver {
      */
     //private static WebDriver driver; // default value = null
 
+    //TODO: refactor to a  single webdriver, no inherited thread local
     private static InheritableThreadLocal<WebDriver> driverPool = new InheritableThreadLocal<>();
 
     /*
